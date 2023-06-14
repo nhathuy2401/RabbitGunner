@@ -1,0 +1,47 @@
+# Unity-specific files
+*.cs meta
+*.unity meta
+*.prefab meta
+*.asset meta
+*.mat meta
+*.anim meta
+*.controller meta
+*.mask meta
+*.overrideController meta
+*.physicsMaterial2D meta
+*.physicsMaterial meta
+*.shader meta
+*.mixer meta
+*.ttf.meta
+*.otf.meta
+*.fbx.meta
+*.aac.meta
+*.wav.meta
+*.mp3.meta
+*.ogg.meta
+*.jpg.meta
+*.jpeg.meta
+*.png.meta
+*.tga.meta
+*.gif.meta
+*.bmp.meta
+*.psd.meta
+*.tif.meta
+*.tiff.meta
+*.exr.meta
+*.a.meta
+*.jar.meta
+*.unitypackage.meta
+*.csv.meta
+*.txt.meta
+
+# Exclude certain files and directories
+/Temp/
+/obj/
+/Library/
+/Build/
+
+# Git LFS (Large File Storage) for large binary files
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
